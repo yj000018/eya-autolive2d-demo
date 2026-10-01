@@ -1,0 +1,20 @@
+# Current documentary state — EYA — AutoLive2D demo
+
+Reviewed: 2026-10-01. Baseline commit: `35a8dd6a394948cc5227f6c5fcdf7283d8a6bd7a`. Execution owner for Wave A: Codex. Semantic/identity arbitration owner: Yannick.
+
+## Verified at the audit boundary
+
+- GitHub repository inventory, default branch and complete recursive tree read (no truncated tree).
+- Root README/PROJECT/AGENTS and documentary map normalized against the committed YOS standard.
+- Existing code, creative corpus, source evidence and paths retained.
+- Observed workflow files: 0; presence does not prove successful CI.
+
+## Limitations and next action
+
+This demo is not the whole EYA project. EYA is distinct from EIA; no promotion to a new canonical EYA repository.
+
+Builds, dependency compatibility, complete document-by-document semantic reconciliation, runtime, deployment and physical acceptance were not revalidated by this entrypoint audit. Review the affected module before implementation work. No new feature acceptance follows from metadata normalization.
+
+## Resume
+
+Read [PROJECT](../../PROJECT.md) and [documentation map](../README.md), then the observed payload paths in [architecture](../architecture/OVERVIEW.md). Record future durable decisions in [the ledger](../decisions/DECISION-LEDGER.md). Wave B/C is a separate migration scope requiring lineage and rollback evidence; this handoff does not authorize it.
