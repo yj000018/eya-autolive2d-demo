@@ -18,3 +18,9 @@ Builds, dependency compatibility, complete document-by-document semantic reconci
 ## Resume
 
 Read [PROJECT](../../PROJECT.md) and [documentation map](../README.md), then the observed payload paths in [architecture](../architecture/OVERVIEW.md). Record future durable decisions in [the ledger](../decisions/DECISION-LEDGER.md). Wave B/C is a separate migration scope requiring lineage and rollback evidence; this handoff does not authorize it.
+
+## Technical follow-up — 2026-10-05
+
+The retained native HTML and six image assets matched their acquisition baseline before this change. A mobile-only CSS addition fixes the table overflow observed at 390 px. Chromium checks at 320, 390, 768 and 1440 px load all six images, retain six workflow cards, and show no horizontal overflow or JavaScript error. Separate HTTP probes return the exact current source and asset bytes.
+
+[Verification receipt](../../evidence/MOBILE-LAYOUT-2026-10-05.json) records source preservation, browser protocol and limitations. The baseline remains recoverable through the remote tag `archive/pre-mobile-layout-2026-10-05`. This is local static-demo validation; no hosted CI, rigging/editor acceptance or provider deployment is claimed. Engineering and execution owner: Codex.

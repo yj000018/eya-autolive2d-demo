@@ -24,3 +24,5 @@ This demo is not the whole EYA project. EYA is distinct from EIA; no promotion t
 Check workflow_demo.html locally; inspect retained .stretch assets in the relevant tool. No root software build manifest is tracked.
 
 Commands are pointers from tracked manifests or existing runbooks, not test results from this audit. Deployment and live acceptance require their own evidence.
+
+The [mobile layout verification](evidence/MOBILE-LAYOUT-2026-10-05.json) records the October 5 static browser checks and preserves the native asset hashes.
