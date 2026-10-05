@@ -34,7 +34,7 @@ No dedicated accepted surface identified in the reviewed entrypoints. This is a 
 
 ## Operations
 
-No dedicated accepted surface identified in the reviewed entrypoints. This is a documentary gap, not proof that the underlying corpus contains none. Add material here when needed, preserving original provenance.
+- [Static release contract](operations/STATIC-RELEASE.md)
 
 ## History
 

@@ -24,3 +24,7 @@ Read [PROJECT](../../PROJECT.md) and [documentation map](../README.md), then the
 The retained native HTML and six image assets matched their acquisition baseline before this change. A mobile-only CSS addition fixes the table overflow observed at 390 px. Chromium checks at 320, 390, 768 and 1440 px load all six images, retain six workflow cards, and show no horizontal overflow or JavaScript error. Separate HTTP probes return the exact current source and asset bytes.
 
 [Verification receipt](../../evidence/MOBILE-LAYOUT-2026-10-05.json) records source preservation, browser protocol and limitations. The baseline remains recoverable through the remote tag `archive/pre-mobile-layout-2026-10-05`. This is local static-demo validation; no hosted CI, rigging/editor acceptance or provider deployment is claimed. Engineering and execution owner: Codex.
+
+## Existing-host release preparation — 2026-10-06
+
+Fresh Vercel inspection finds the existing manual production deployment still serving the original HTML, without a Git SHA. The corrected mobile source is present on `master`. Four packaging-boundary tests pass locally; the new read-only CI checks the exact eight-file static output. [Release contract](../operations/STATIC-RELEASE.md). Existing Vercel project Git reconnection requires an authenticated native session: the browser currently reaches login. No duplicate project, promotion, protection change or rigging/publication acceptance is asserted.

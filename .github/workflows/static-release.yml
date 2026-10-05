@@ -1,0 +1,21 @@
+name: Verify static release payload
+on:
+  push:
+    branches: [master]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  static-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+      - run: python3 scripts/build_static.py > static-release-proof.json
+      - uses: actions/upload-artifact@v7.0.1
+        with:
+          name: static-release-proof
+          path: static-release-proof.json

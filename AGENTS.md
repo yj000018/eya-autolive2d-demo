@@ -21,3 +21,7 @@ Use the map in docs/README.md. Accepted canon, accepted decisions, architecture/
 ## Secrets
 
 Never commit credentials, access tokens, cookies, private runtime configuration or newly acquired private raw exports. Use ignored local configuration and an approved secret store. Do not print secrets in validation receipts.
+
+## User-authorized technical continuation — 2026-10-06
+
+Run `python3 -m unittest discover -s scripts -p 'test_*.py' -v` and `python3 scripts/build_static.py` in a fresh output directory. [Static release](docs/operations/STATIC-RELEASE.md) defines the bounded existing-project release, input/output allowlist and rollback. Do not publish the rigging project, documentation or evidence as static output; preserve native HTML/media bytes. Native tool/rigging acceptance remains separate.
