@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "repository": "yj000018/eya-autolive2d-demo",
+  "default_branch": "master",
+  "baseline_commit": "226bdd959437f6a36a10feb3d53ad873b4046149",
+  "recovery_tag": "archive/pre-mobile-layout-2026-10-05",
+  "native_baseline": {
+    "archive": "YOS-Vercel-Native-2026-10-04-FINAL.tar.gz",
+    "archive_sha256": "1f9f22a34510c00b251815bfa9abe32fc9a25d8efa3f2f30909b461b39b5db75",
+    "original_html_sha256": "fa9b0948fc7d949cc5e90aafbba601ed13a4a41180d132dc905b542c12a1f602",
+    "native_files_already_retained_byte_identically": 7,
+    "new_private_source_files_published": 0
+  },
+  "change": "15 additive mobile CSS lines; removing added CSS reconstructs exact original HTML",
+  "unchanged_assets": [
+    {
+      "path": "assets/01_layers_loaded.webp",
+      "sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96"
+    },
+    {
+      "path": "assets/04_joints_manual.webp",
+      "sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a"
+    },
+    {
+      "path": "assets/05_rigging_complete.webp",
+      "sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416"
+    },
+    {
+      "path": "assets/06_staging_mode.webp",
+      "sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8"
+    },
+    {
+      "path": "assets/eya_source.jpg",
+      "sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b"
+    },
+    {
+      "path": "assets/seethrough_layers.jpg",
+      "sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a"
+    }
+  ],
+  "browser_validation": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "renderProtocol": "file",
+      "images": [
+        {
+          "src": "assets/eya_source.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/seethrough_layers.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/01_layers_loaded.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/04_joints_manual.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/05_rigging_complete.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/06_staging_mode.webp",
+          "loaded": true
+        }
+      ],
+      "steps": 6,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "renderProtocol": "file",
+      "images": [
+        {
+          "src": "assets/eya_source.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/seethrough_layers.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/01_layers_loaded.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/04_joints_manual.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/05_rigging_complete.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/06_staging_mode.webp",
+          "loaded": true
+        }
+      ],
+      "steps": 6,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "renderProtocol": "file",
+      "images": [
+        {
+          "src": "assets/eya_source.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/seethrough_layers.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/01_layers_loaded.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/04_joints_manual.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/05_rigging_complete.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/06_staging_mode.webp",
+          "loaded": true
+        }
+      ],
+      "steps": 6,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "renderProtocol": "file",
+      "images": [
+        {
+          "src": "assets/eya_source.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/seethrough_layers.jpg",
+          "loaded": true
+        },
+        {
+          "src": "assets/01_layers_loaded.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/04_joints_manual.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/05_rigging_complete.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/06_staging_mode.webp",
+          "loaded": true
+        }
+      ],
+      "steps": 6,
+      "overflow": false,
+      "pageErrors": []
+    }
+  ],
+  "http_validation": [
+    {
+      "path": "workflow_demo.html",
+      "status": 200,
+      "bytes": 12176,
+      "sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39"
+    },
+    {
+      "path": "assets/01_layers_loaded.webp",
+      "status": 200,
+      "bytes": 241554,
+      "sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96"
+    },
+    {
+      "path": "assets/04_joints_manual.webp",
+      "status": 200,
+      "bytes": 258862,
+      "sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a"
+    },
+    {
+      "path": "assets/05_rigging_complete.webp",
+      "status": 200,
+      "bytes": 241350,
+      "sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416"
+    },
+    {
+      "path": "assets/06_staging_mode.webp",
+      "status": 200,
+      "bytes": 235826,
+      "sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8"
+    },
+    {
+      "path": "assets/eya_source.jpg",
+      "status": 200,
+      "bytes": 58460,
+      "sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b"
+    },
+    {
+      "path": "assets/seethrough_layers.jpg",
+      "status": 200,
+      "bytes": 106187,
+      "sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a"
+    }
+  ],
+  "limitations": [
+    "Browser rendering used local file URLs after transient Chromium loopback socket errors; separate HTTP probes verified exact source and asset bytes.",
+    "No hosted CI is configured.",
+    "No rigging, Stretchy editor, provider deployment or device acceptance was exercised.",
+    "This manifestation remains distinct from EIA and is not whole-EYA canon."
+  ]
+}

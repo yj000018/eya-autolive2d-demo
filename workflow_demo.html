@@ -134,6 +134,21 @@
   tr:hover td { background: #16162a; }
   
   footer { text-align: center; padding: 30px; color: #444; font-size: 0.8rem; }
+  @media (max-width: 600px) {
+    header { padding: 24px 16px; }
+    header h1 { font-size: 1.6rem; }
+    .status-bar { margin: 16px; padding: 12px; flex-wrap: wrap; }
+    .workflow { padding: 16px; grid-template-columns: minmax(0, 1fr); }
+    .params-grid { padding: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cta-section, .verdict { margin: 16px; padding: 16px; }
+    .status-bar span, .step-title, .step-tool, .param-card, .btn {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+    .btn { max-width: 100%; }
+    table { table-layout: fixed; font-size: 0.75rem; }
+    th, td { padding: 8px; overflow-wrap: anywhere; }
+  }
 </style>
 </head>
 <body>
