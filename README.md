@@ -26,3 +26,5 @@ Check workflow_demo.html locally; inspect retained .stretch assets in the releva
 Commands are pointers from tracked manifests or existing runbooks, not test results from this audit. Deployment and live acceptance require their own evidence.
 
 The [mobile layout verification](evidence/MOBILE-LAYOUT-2026-10-05.json) records the October 5 static browser checks and preserves the native asset hashes.
+
+The [static release contract](docs/operations/STATIC-RELEASE.md) prepares the current mobile-corrected demo at `/` and `/workflow_demo.html`, with six unchanged images. Read-only CI verifies the exact eight-file package; production promotion remains independently verified.

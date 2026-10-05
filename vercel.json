@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "buildCommand": "python3 scripts/build_static.py",
+  "installCommand": "",
+  "outputDirectory": "dist"
+}
