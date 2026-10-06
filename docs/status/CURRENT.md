@@ -28,3 +28,7 @@ The retained native HTML and six image assets matched their acquisition baseline
 ## Existing-host release preparation — 2026-10-06
 
 Fresh Vercel inspection finds the existing manual production deployment still serving the original HTML, without a Git SHA. The corrected mobile source is present on `master`. Four packaging-boundary tests pass locally; the new read-only CI checks the exact eight-file static output. [Release contract](../operations/STATIC-RELEASE.md). Existing Vercel project Git reconnection requires an authenticated native session: the browser currently reaches login. No duplicate project, promotion, protection change or rigging/publication acceptance is asserted.
+
+## Verified existing-project Production release — 2026-10-06
+
+The authenticated Vercel connector now supports pinned-Git deployment in the existing project, superseding the earlier native-login-only blocker for this release. Preview `dpl_4Hmop5GvmqGYhS2jzHPe5qETyR6q` was verified before the Production build `dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd`, both from source SHA `16b37f9c305d52100639fd7edfe9f15516803da8`. All eight public files match the source SHA256 manifest. At 390 px all six images/cards load without horizontal overflow. All three existing aliases now map to the verified release; protections and original rollback deployment remain unchanged. Docs/AGENTS/rigging paths return 404. [Production receipt](../../evidence/PRODUCTION-RELEASE-2026-10-06.json). No persistent Git connection, automatic future deployment or fresh rigging/editor acceptance is claimed.

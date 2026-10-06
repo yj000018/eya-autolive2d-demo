@@ -1,0 +1,259 @@
+{
+  "repository": "yj000018/eya-autolive2d-demo",
+  "source_sha": "16b37f9c305d52100639fd7edfe9f15516803da8",
+  "project_id": "prj_Pm4WEFgcy4noLHWvQqdEyvXa5tvj",
+  "team_id": "team_bB6FLwr6gJZRzgmV2s067oIJ",
+  "preview_deployment": "dpl_4Hmop5GvmqGYhS2jzHPe5qETyR6q",
+  "production_deployment": "dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd",
+  "rollback_deployment": "dpl_gVqqGwPGbqxSygZiiN99ffv9Amyk",
+  "rollback_retained_ready": true,
+  "protection_settings_unchanged": true,
+  "protection_settings": {
+    "passwordProtection": {
+      "enabled": false,
+      "deploymentType": null
+    },
+    "ssoProtection": {
+      "enabled": true,
+      "deploymentType": "all_except_custom_domains"
+    },
+    "trustedIps": {
+      "enabled": false,
+      "deploymentType": null,
+      "addresses": [],
+      "protectionMode": null
+    }
+  },
+  "existing_domains": [
+    "eya-autolive2d-demo.vercel.app",
+    "eya-autolive2d-demo-yjos-projects.vercel.app",
+    "eya-autolive2d-demo-yj000018-yjos-projects.vercel.app"
+  ],
+  "aliases_verified": [
+    {
+      "alias": "eya-autolive2d-demo-git-master-yjos-projects.vercel.app",
+      "deploymentId": "dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd",
+      "projectId": "prj_Pm4WEFgcy4noLHWvQqdEyvXa5tvj"
+    },
+    {
+      "alias": "eya-autolive2d-demo.vercel.app",
+      "deploymentId": "dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd",
+      "projectId": "prj_Pm4WEFgcy4noLHWvQqdEyvXa5tvj"
+    },
+    {
+      "alias": "eya-autolive2d-demo-yj000018-yjos-projects.vercel.app",
+      "deploymentId": "dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd",
+      "projectId": "prj_Pm4WEFgcy4noLHWvQqdEyvXa5tvj"
+    },
+    {
+      "alias": "eya-autolive2d-demo-yjos-projects.vercel.app",
+      "deploymentId": "dpl_BV7hGXbVL2qwrzDtPmcLJ7FmvJzd",
+      "projectId": "prj_Pm4WEFgcy4noLHWvQqdEyvXa5tvj"
+    }
+  ],
+  "promotion_endpoint_failure": 422,
+  "production_release_method": "new production build from the exact preview-verified Git SHA, existing project",
+  "persistent_git_link_claimed": false,
+  "preview_personal_share_url_or_cookies_stored": false,
+  "mobile": {
+    "viewport_width": 390,
+    "cards": 6,
+    "images_loaded": 6,
+    "horizontal_overflow": false
+  },
+  "editor_rigging_acceptance_performed": false,
+  "verified_at_utc": "2026-10-06T10:38:49.204152+00:00",
+  "preview_http": {
+    "deployment": "dpl_4Hmop5GvmqGYhS2jzHPe5qETyR6q",
+    "sha": "16b37f9c305d52100639fd7edfe9f15516803da8",
+    "temporary_personal_preview_access_used": true,
+    "access_url_or_cookie_preserved": false,
+    "files": [
+      {
+        "path": "assets/01_layers_loaded.webp",
+        "status": 200,
+        "bytes": 241554,
+        "transport_sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96",
+        "normalized_sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "assets/04_joints_manual.webp",
+        "status": 200,
+        "bytes": 258862,
+        "transport_sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a",
+        "normalized_sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "assets/05_rigging_complete.webp",
+        "status": 200,
+        "bytes": 241350,
+        "transport_sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416",
+        "normalized_sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "assets/06_staging_mode.webp",
+        "status": 200,
+        "bytes": 235826,
+        "transport_sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8",
+        "normalized_sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "assets/eya_source.jpg",
+        "status": 200,
+        "bytes": 58460,
+        "transport_sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b",
+        "normalized_sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "assets/seethrough_layers.jpg",
+        "status": 200,
+        "bytes": 106187,
+        "transport_sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a",
+        "normalized_sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 12176,
+        "transport_sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "normalized_sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      },
+      {
+        "path": "workflow_demo.html",
+        "status": 200,
+        "bytes": 12176,
+        "transport_sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "normalized_sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "provider_feedback_suffix_removed": false,
+        "matches_source": true
+      }
+    ]
+  },
+  "production_http": {
+    "verified_at_utc": "2026-10-06T10:34:40.946663+00:00",
+    "files": [
+      {
+        "path": "assets/01_layers_loaded.webp",
+        "status": 200,
+        "bytes": 241554,
+        "sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96",
+        "matches": true
+      },
+      {
+        "path": "assets/04_joints_manual.webp",
+        "status": 200,
+        "bytes": 258862,
+        "sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a",
+        "matches": true
+      },
+      {
+        "path": "assets/05_rigging_complete.webp",
+        "status": 200,
+        "bytes": 241350,
+        "sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416",
+        "matches": true
+      },
+      {
+        "path": "assets/06_staging_mode.webp",
+        "status": 200,
+        "bytes": 235826,
+        "sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8",
+        "matches": true
+      },
+      {
+        "path": "assets/eya_source.jpg",
+        "status": 200,
+        "bytes": 58460,
+        "sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b",
+        "matches": true
+      },
+      {
+        "path": "assets/seethrough_layers.jpg",
+        "status": 200,
+        "bytes": 106187,
+        "sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a",
+        "matches": true
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 12176,
+        "sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "matches": true
+      },
+      {
+        "path": "workflow_demo.html",
+        "status": 200,
+        "bytes": 12176,
+        "sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39",
+        "matches": true
+      }
+    ],
+    "excluded_paths": {
+      "docs/README.md": 404,
+      "AGENTS.md": 404,
+      "eYa_AutoLive2D_v1.stretch": 404
+    }
+  },
+  "release_manifest": {
+    "files": [
+      {
+        "path": "assets/01_layers_loaded.webp",
+        "bytes": 241554,
+        "sha256": "758486fba9c3b6d627b3e48619a6d4a2b8e3b52af4b048a0021b172f831a6d96"
+      },
+      {
+        "path": "assets/04_joints_manual.webp",
+        "bytes": 258862,
+        "sha256": "83abff2e71bb74f0f77780f832834c3c2994d012b6fcaf80844fe03fe99d5d2a"
+      },
+      {
+        "path": "assets/05_rigging_complete.webp",
+        "bytes": 241350,
+        "sha256": "82db14881cca416c205f96314200d310feba90e47c75d45316e56dd02296d416"
+      },
+      {
+        "path": "assets/06_staging_mode.webp",
+        "bytes": 235826,
+        "sha256": "46e5c463fe8192a29f8da1a975f2cf048d6fb225ef2ef3f99d84141794aebaa8"
+      },
+      {
+        "path": "assets/eya_source.jpg",
+        "bytes": 58460,
+        "sha256": "a0c9b1355185157a0f756fad70b50732ab139cf027bbaa952f07c3653b25b51b"
+      },
+      {
+        "path": "assets/seethrough_layers.jpg",
+        "bytes": 106187,
+        "sha256": "2269e4d4e151e3e396ea07e64a0d6c99bcb92a412b1fa3b3ce9eb1617984d57a"
+      },
+      {
+        "path": "index.html",
+        "bytes": 12176,
+        "sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39"
+      },
+      {
+        "path": "workflow_demo.html",
+        "bytes": 12176,
+        "sha256": "77d8ce93dd490e3f2e269b28c1d6407ebcafe941fc011da6330337bb8cd14e39"
+      }
+    ],
+    "source_html_unchanged": true,
+    "image_files": 6,
+    "provider_call": false
+  }
+}
